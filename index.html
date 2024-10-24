@@ -1,60 +1,274 @@
 <!--
 Requirements
-[  ] Two External Links
-[  ] Table
-[  ] Three CSS Rules
-[  ] Three Images
+[ yes ] Two External Links
+[ yes ] Table
+[ yes ] Three CSS Rules
+[ yes ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include a :hover feature
+[ yes ] Feature 1 - Include a :hover feature
 [ no ] Feature 2 - Include at least two Internal links
-[ no ] Feature 3 - Include a list in a tabl
-[ no ] Feature 4 - Include at least two background images in a table
+[ no ] Feature 3 - Include a list in a table
+[ yes ] Feature 4 - Include at least two background images in a table
 -->
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Project: Kendall's Recipe book</title>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        background-image: url(https://worldofprintables.com/wp-content/uploads/2023/06/Pumpkin-Latte-Autumn-Wallpaper-650x364.jpg);
+      }
+      .titles {
+        background-color: rgb(236, 177, 89);
+      }
+      .paragrphs {
+        background-color: rgb(182, 115, 82);
+      }
+      thead {
+        background-image: url(https://st2.depositphotos.com/1007027/8285/i/950/depositphotos_82850688-stock-photo-wood-background-texture-and-leaf.jpg);
+      }
+      tbody {
+        background-image: url(https://www.shutterstock.com/image-photo/autumn-deep-blurred-sunny-background-260nw-322824677.jpg);
+      }
+      h3 {
+        color: rgb(254, 251, 246);
+      }
+      h3 {
+        background-color: rgb(0, 0, 0);
+      }
+      p:hover {
+        background-color: orange;
+      }
+      ul:hover {
+        background-color: limegreen;
+      }
+      h1:hover {
+        background-color: darkviolet;
+      }
+      table:hover {
+        background-color: limegreen;
+      }
+      h2:hover {
+        background-color: darkviolet;
+      }
+      h3:hover {
+        background-color: rgb(254, 251, 246);
+      }
+      h3:hover {
+        color: rgb(0, 0, 0);
+      }
+    </style>
+  </head>
 
-<head>
-  <title>Project: Recipe book</title>
-  <meta charset="utf-8">
-  <style>
-  </style>
-</head>
+  <body>
+    <h1 class="titles">
+      Kendall's Autumnal Super-Duper-Easy-Peasy-Lemon-Squeesy Meals Recipe Book
+    </h1>
 
-<body>
+    <p class="paragrphs">
+      Muliti-ingredient meals that aren't fancy enough for a gourmet restaraunt
+      but not too fancy for a lazy autumn day at home when you have a lack of
+      items in your fridge but don't feel like going full-out grocery shopping
+      until Tuesday.
+    </p>
 
-  <h1>____'s Recipe Book</h1>
+    <h2 class="titles">Contents:</h2>
+    <p class="paragrphs">Breakfast:</p>
+    <ul class="paragrphs">
+      <li>Egg and Cheese Sandwich</li>
+      <li>Pumpkin Pancakes</li>
+    </ul>
+    <img
+      src="https://static01.nyt.com/images/2022/08/24/dining/as-bacon-egg-and-cheese-1/as-bacon-egg-and-cheese-1-threeByTwoMediumAt2X-v3.jpg"
+      width="200"
+    />
+    <img
+      src="https://static01.nyt.com/images/2017/09/28/dining/28COOKING-PUMPKINPANCAKE/28COOKING-PUMPKINPANCAKE-superJumbo.jpg"
+      width="200"
+    />
+    <p class="paragrphs">Dinner:</p>
+    <ul class="paragrphs">
+      <li>Spaghetti (No Meatballs)</li>
+      <li>Mac n' Cheese with Broccoli and Bacon Bits</li>
+    </ul>
+    <img
+      src="https://img.taste.com.au/sE-X5HqY/taste/2024/03/5-ingredient-turbo-charged-spaghetti-recipe-196959-1.jpg"
+      width="200"
+    />
+    <img
+      src="https://sumptuousliving.net/wp-content/uploads/2016/04/bacon-broccoli-mac-and-cheese-2.jpg"
+      width="200"
+    />
+    <p class="paragrphs">Desert:</p>
+    <ul class="paragrphs">
+      <li>Apple Pie Insides</li>
+      <li>Semi-Homemade Strawberry Shortcake</li>
+    </ul>
+    <img
+      src="https://hips.hearstapps.com/hmg-prod/images/delish-190619-apple-pie-filling-018-landscape-pf-1561754469.jpg"
+      width="200"
+    />
+    <img
+      src="https://www.allrecipes.com/thmb/0kfzN0CBam7vTnAnWXpvoFIY2e8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8201-strawberry-shortcake-ddmfs-5775-hero-3x4-47272b202c594de0a4221f3a7cab4087.jpg"
+      width="200"
+    />
 
-  <h2>Contents:</h2>
+    <p class="paragrphs">Drink:</p>
+    <ul class="paragrphs">
+      <li>Homemade Blueberry Lemonade</li>
+    </ul>
 
-  <ol>
-    <li><a href="?">Recipe #1</a></li>
-  </ol>
+    <img
+      src="https://images.squarespace-cdn.com/content/v1/5f628b2fb3989f13bc6748a9/1692383197457-PULRHTUJT0B1T4QKT0DB/Sparkling%2BBlueberry%2BLemonade%2Bserve.jpg"
+      width="200"
+    />
 
-  <h2 id="?">Recipe #1</h2>
+    <h2 class="titles">Recipe #1: Egg And Cheese Sandwich</h2>
 
-  <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
-  </ul>
+    <table class="paragrphs">
+      <thead>
+        <tr>
+          <th>Ingredients</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Eggs</td>
+          <td>Two</td>
+        </tr>
+        <tr>
+          <td>Cheese</td>
+          <td>One slice</td>
+        </tr>
+        <tr>
+          <td>Bread</td>
+          <td>Two Slices</td>
+        </tr>
+        <tr>
+          <td>Stick of Butter</td>
+          <td>One Little Tiny Slice</td>
+        </tr>
+      </tbody>
+    </table>
 
-  <table>
-    <thead>
-      <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
+    <p class="paragrphs">
+      <strong>Step 1:</strong> First you have to toast your bread. To toast your
+      bread, put the bread in a toaster until it pops out. (I don't know how to
+      use a toaster...) If you don't have a toaster like I do, use your air
+      fryer! Put your two slices of bread on a pan and place the pan in your air
+      fryer.
+    </p>
+    <p class="paragrphs">
+      <strong>Step 2:</strong> While your bread is toasting, place a small,
+      round pot on the stove and set the stovetop temperature to the medium
+      temperature (anything in-between really really hot and not cooking at
+      all.)
+    </p>
+    <p class="paragrphs">
+      <strong>Step 3:</strong> Put a very small slice of butter in the pan.
+      Swirl it around the pan with a spatula or just by holding the handle and
+      letting the butter hit every side of the pot, so your food won't stick.
+    </p>
+    <p class="paragrphs">
+      <strong>Step 4:</strong> While your pot is heating up with the butter,
+      crack the eggs in a small bowl and whip them up until they are scrambled.
+    </p>
+    <p class="paragrphs">
+      <strong>Step 5:</strong> Pour the scrambled eggs onto the hot pan and stir
+      with spatula until you see its all cooked. (Make sure the eggs are fully
+      cooked, you don't want to get salmonella!)
+    </p>
+    <p class="paragrphs">
+      <strong>Step 6:</strong> Scrape your eggs off the pot and put your cooked
+      eggs on a plate so they don't burn, and turn off your stove.
+    </p>
+    <p class="paragrphs">
+      <strong>Step 7:</strong> Next, take out your toasted (hopefully not burnt)
+      toast. You may have taken your toast out before your eggs were done and
+      thats okay, everyone has their preferences!
+    </p>
+    <p class="paragrphs">
+      <strong>Step 8:</strong> Transfer your eggs into your bread slices and
+      voila! An egg and cheese sandwich.
+    </p>
 
-  <p><strong>Step 1:</strong> Do something.
-  </p>
+    <h2 class="titles">Recipe #2: Pumpkin Pancakes</h2>
 
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
+    <table class="paragrphs">
+      <thead>
+        <tr>
+          <th>Ingredients</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Canned Pumpkin</td>
+          <td>One Can</td>
+        </tr>
+        <tr>
+          <td>Kodiak Cakes Pancake Mix</td>
+          <td>One Box</td>
+        </tr>
+        <tr>
+          <td>Milk or Water</td>
+          <td>One Cup</td>
+        </tr>
+      </tbody>
+    </table>
 
-</body>
+    <p class="paragrphs"><strong>Step 1:</strong></p>
 
+    <h2 class="titles">Recipe #3: Spaghetti (no meatballs)</h2>
+
+    <table class="paragrphs">
+      <thead>
+        <tr>
+          <th>Ingredients</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Spaghetti Hairs</td>
+          <td>One Pack</td>
+        </tr>
+        <tr>
+          <td>Tomato sauce</td>
+          <td>One can</td>
+        </tr>
+        <tr>
+          <td>Green Pepper</td>
+          <td>One</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p class="paragrphs"><strong>Step 1:</strong></p>
+
+    <p class="paragrphs">
+      <em
+        >Source:
+        <a target="_blank" href="https://www.foodnetwork.com/recipes"
+          >Some recipes websites</a
+        ></em
+      ><br />
+      <em
+        >Bonus:
+        <a
+          target="_blank"
+          href="https://www.foodnetwork.com/recipes/photos/halloween-recipes"
+          >Halloween Spooky Snacks</a
+        ></em
+      >
+    </p>
+
+    <h3>
+      Recipe Website <em><strong>To Be Continued</strong></em>
+    </h3>
+  </body>
 </html>
